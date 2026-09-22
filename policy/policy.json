@@ -1,0 +1,16 @@
+{
+  "policy_currency": "USD",
+  "supported_currencies": ["USD", "EUR", "GBP"],
+  "exchange_rates": {
+    "EUR": "1.08",
+    "GBP": "1.27"
+  },
+  "per_diem_caps": {
+    "1": {"meal": "75.00"},
+    "2": {"meal": "60.00"},
+    "3": {"meal": "45.00"}
+  },
+  "partial_day_multiplier": "0.75",
+  "receipt_threshold": "75.00",
+  "reporting_precision": 2
+}
